@@ -1,0 +1,19 @@
+Cerinta:
+
+Scrie un program in PEG.js in care sa validam daca un card de credit este valid
+
+Solutia:
+
+Merge din 4 in 4 si verifica daca exista caracterul "-" si le numara punandu-le intr-o variabila. Numara cifrele si le identifica cu numarul unui card.
+EXEMPLE DE FONCTIONNEMENT CORRECT:
+
+4532-1164-9138-7232 4485-8468-1654-4458 4906-8195-9156-6542
+
+Verificare:
+
+1.Intram pe siteul http://pegjs.org/online 
+2.Se introduce codul din "TD2.md" in editor. 
+3.Se introduce in input stringul pe care dorim sa-l validam (ex. "4485-6038-2982-4306") 
+4.In sectiunea "Output" va fi afisata valoarea de adevar a stringului astfel: 
+true - daca stringul este un numar de card de credit valid 
+false - daca stringul nu este un numar de card de credit valid
